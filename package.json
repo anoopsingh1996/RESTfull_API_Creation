@@ -1,5 +1,5 @@
 {
-  "name": "node-rest-shop",
+  "name": "RESTfull_API_Creation",
   "version": "1.0.0",
   "description": "A Node.js RESTful API project",
   "main": "index.js",
@@ -15,6 +15,7 @@
   "author": "Anoop Singh",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "morgan": "^1.9.1"
   },
