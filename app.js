@@ -11,6 +11,8 @@ mongoose.connect('mongodb+srv://anoop:reso1996@rest-api-node-cap94.mongodb.net/t
     useNewUrlParser: true
 });
 
+mongoose.Promise = global.Promise;
+
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
