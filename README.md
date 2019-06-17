@@ -1,2 +1,2 @@
 # RESTfull_API_Creation
-Create RESTfull API using nodeJs and express
+This repository on building a RESTful API with Node.js: 
